@@ -44,31 +44,3 @@ public class StampCalculatorTest {
         assertEquals(expected, actual);
     }
 }
-
-
-//1.
-//// TODO 여기에 테스트 케이스를 작성해주세요.
-//// 주문 한 커피의 수 만큼 증가
-//// given
-//Stamp stamp = new Stamp();
-//        stamp.setStampCount(0);
-//OrderCoffee orderCoffee = new OrderCoffee();
-//        orderCoffee.setQuantity(3);
-//StampCalculator calculator = new StampCalculator();
-//
-//int expectedCount = calculator.calculateStampCount(stamp.getStampCount(), orderCoffee.getQuantity());
-//
-//assertEquals(3, expectedCount, "실패 ~");
-
-//2.
-//Stamp stamp = new Stamp();
-//        stamp.setStampCount(5);
-//OrderCoffee orderCoffee = new OrderCoffee();
-//        orderCoffee.setQuantity(5);
-//Order order = new Order();
-//        order.addOrderCoffee(orderCoffee);
-//
-//int earnedStampCount = StampCalculator.calculateEarnedStampCount(order);
-//int sumOrderedCoffees = StampCalculator.calculateStampCount(stamp.getStampCount(), earnedStampCount);
-//
-//assertEquals(10, sumOrderedCoffees, "fail");
