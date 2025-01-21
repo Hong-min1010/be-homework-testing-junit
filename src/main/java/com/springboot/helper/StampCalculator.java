@@ -3,6 +3,8 @@ package com.springboot.helper;
 import com.springboot.order.entity.Order;
 
 public class StampCalculator {
+
+
     public static int calculateStampCount(int nowCount, int earned) {
         return nowCount + earned;
     }
